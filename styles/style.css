@@ -215,6 +215,7 @@ header{
     background-repeat: no-repeat;
     background-attachment: fixed;
     overflow-x: hidden;
+    max-width: 100%;
 }
 
 .homepage{
