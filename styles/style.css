@@ -439,6 +439,8 @@ header{
   border-radius: var(--itemBorderRadius);
   overflow: hidden; /* supaya gambar yang diatas itu dia ngikut border radiusnya, karena yang dikasih border radius disini adalah div portfolio ini */
   border: 1px solid var(--borderColor);
+  box-shadow:  -10px 10px 5px #bebebe,
+            10px -10px 5px #ffffff;
 }
 
 .portfolio-cover {
@@ -555,3 +557,34 @@ header{
   padding: 0 1rem;
 }
 
+
+/* Tombol download utama */
+.download-btn {
+  display: inline-block;
+  background: linear-gradient(90deg, rgb(131, 96, 195), rgb(46, 191, 145));
+  color: #fff;
+  font-weight: 600;
+  font-size: 0.9rem;
+  padding: 8px 20px;
+  border-radius: 8px;
+  text-decoration: none;
+  border: none;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+/* Efek hover */
+.download-btn:hover {
+  background: linear-gradient(90deg, rgb(115, 83, 180), rgb(35, 165, 125));
+  transform: translateY(-2px);
+  box-shadow: 0 6px 12px rgba(0,0,0,0.15);
+  color: #000;
+}
+
+/* Responsive ukuran tombol di layar kecil */
+@media (max-width: 640px) {
+  .download-btn {
+    font-size: 0.8rem;
+    padding: 6px 16px;
+  }
+}
