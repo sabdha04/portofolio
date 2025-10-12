@@ -182,7 +182,7 @@
 }
 
 /* Mobile Size */
-@media (min-width:300px) and (max-width: 640px) {
+@media (min-width:300px) and (max-width: 650px) {
   /* Titles */
   .hire {
     padding: 10px 20px; /* Mengurangi padding */
