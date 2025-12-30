@@ -1,3 +1,3 @@
 # portofolio
 Sabdha Putra Laudri
-Teknik Informatika
+/n Teknik Informatika
