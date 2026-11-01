@@ -582,6 +582,52 @@ header{
   color: #000;
 }
 
+// Certificate Section
+#certificate {
+  padding: 60px 0 100px; /* atas | kiri-kanan | bawah */
+}
+.certificate {
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+.certificate-card {
+  background: #fff;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+  transition: 0.3s ease;
+  cursor: pointer;
+  display: block;
+}
+
+.certificate-card img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  display: block;
+}
+
+.certificate-info {
+  padding: 16px;
+  text-align: center;
+}
+
+.certificate-info h4 {
+  margin-bottom: 8px;
+  font-size: 18px;
+}
+
+.certificate-info p {
+  font-size: 14px;
+  color: #777;
+}
+
+/* Hover effect */
+.certificate-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+}
+
 /* Responsive ukuran tombol di layar kecil */
 @media (max-width: 640px) {
   .download-btn {
